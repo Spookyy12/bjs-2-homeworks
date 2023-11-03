@@ -61,6 +61,7 @@ function differenceEvenOddWorker(...arr) {
 }
 
 function averageEvenElementsWorker(...arr) {
+  if (arr.length === 0) return 0;
 
   let sumEvenElement = 0;
   let element = 0;
